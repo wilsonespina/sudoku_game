@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink; /* TODO - change */
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+  --large-square-width: 300px;
+  --small-square-width: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: var(--large-square-width) var(--large-square-width) var(--large-square-width);
+    grid-template-rows: var(--large-square-width) var(--large-square-width) var(--large-square-width);
+}
+
+
+.square {
+    outline: 3px black solid;
+    display: grid;
+    grid-template-columns: var(--small-square-width) var(--small-square-width) var(--small-square-width);
+    grid-template-rows: var(--small-square-width) var(--small-square-width) var(--small-square-width);
+}
+
+.square .square__number-box {
+    outline: 1px black solid;
+}
