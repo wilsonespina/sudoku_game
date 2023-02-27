@@ -19,7 +19,6 @@ body {
     grid-template-rows: var(--large-square-width) var(--large-square-width) var(--large-square-width);
 }
 
-
 .square {
     outline: 3px black solid;
     display: grid;
