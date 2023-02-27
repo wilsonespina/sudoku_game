@@ -1,1 +1,4 @@
-# sudoku_game
+# Sudoku Game
+
+Technologies used (TBC)
+* CSS Grid
