@@ -2,16 +2,18 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: pink; /* TODO - change */
-    display: flex;
-    justify-content: center;
-}
-
 :root {
   --large-square-width: 300px;
   --small-square-width: 100px;
 }
+
+body {
+    background-color: pink; /* TODO - change */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .grid {
     display: grid;
@@ -21,6 +23,9 @@ body {
 
 .square {
     outline: 3px black solid;
+}
+
+.square, form {
     display: grid;
     grid-template-columns: var(--small-square-width) var(--small-square-width) var(--small-square-width);
     grid-template-rows: var(--small-square-width) var(--small-square-width) var(--small-square-width);
@@ -28,4 +33,25 @@ body {
 
 .square .square__number-box {
     outline: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+}
+
+.inputselect {
+    caret-color: transparent;
+}
+
+.inputselect:focus {
+    background-color: yellow;
+}
+
+
+.btn {
+    padding: 20px 10px;
+    height: max-content;
 }
