@@ -9,128 +9,122 @@
     <script src="./index.js" async></script>
 </head>
 <body>
-    <!--
-        1    2    3 -- ROW A
-        4    5    6 -- ROW B
-        7    8    9 -- ROW C
-       colA colB colC
-     -->
     <main class="grid">
         <div class="square square--1">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s1" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s2" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s3" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s4" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s5" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s6" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s7" placeholder="" name="square" class="inputselect row-3"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s8" placeholder="" name="square" class="inputselect row-3"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" id="s9" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s1" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s2" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s3" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s4" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s5" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s6" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s7" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s8" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" id="s9" placeholder="" name="square" class="inputselect row-3"/>
             </form>
         </div>
         <div class="square square--2">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-3"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-3"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-3"/>
             </form>
         </div>
         <div class="square square--3">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-1"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-2"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-3"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-3"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-1"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-2"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-3"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-3"/>
             </form>
         </div>
         <div class="square square--4">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
             </form>
         </div>
         <div class="square square--5">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
             </form>
         </div>
         <div class="square square--6">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-4"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-5"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-4"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-5"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-6"/>
             </form>
         </div>
         <div class="square square--7">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
             </form>
         </div>
         <div class="square square--8">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
             </form>
         </div>
         <div class="square square--9">
             <form action="">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-7"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-8"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-7"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-8"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
+                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" onClick="this.select();" placeholder="" name="square" class="inputselect row-9"/>
             </form>
         </div>
 
