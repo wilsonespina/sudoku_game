@@ -123,7 +123,6 @@ const runCheck = () => {
     const ALL_SQUARES = getSquares();
     const ALL_COLUMNS = getColumns();
 
-    console.log("🚀 ~ file: index.js:148 ~ runCheck ~ compareAgainstArraysForDups(ALL_SQUARES)[0]:", compareAgainstArraysForDups(ALL_SQUARES)[0])
     if (Boolean(compareAgainstArraysForDups(ALL_SQUARES)[0] ||
         compareAgainstArraysForDups(ALL_COLUMNS)[0] ||
         compareAgainstArraysForDups(ALL_ROWS)[0] ||
